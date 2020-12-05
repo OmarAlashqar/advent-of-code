@@ -1,7 +1,7 @@
 // answer: 737
 import readFile from '../common/readFile';
 
-// this solution uses regex matching for line parsing and occurrence checking
+// this solution uses regex matching for line parsing
 export const solution = (input: string[]): number => {
   return input.reduce((acc: number, line: string): number => {
     const matches = line.match(/(\d+)-(\d+) (\w): (\w+)/);
