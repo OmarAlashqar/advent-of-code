@@ -16,6 +16,6 @@ export const solution = (map: string[], slopeRight: number, slopeDown: number): 
 };
 
 (async () => {
-  const raw = await readFile(__dirname);
+  const raw = (await readFile(__dirname)).split('\n');
   console.log(solution(raw, 3, 1));
 })();

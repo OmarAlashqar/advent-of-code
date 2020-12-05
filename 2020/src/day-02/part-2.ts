@@ -23,6 +23,6 @@ export const solution = (input: string[]): number => {
 };
 
 (async () => {
-  const raw = await readFile(__dirname);
+  const raw = (await readFile(__dirname)).split('\n');
   console.log(solution(raw));
 })();

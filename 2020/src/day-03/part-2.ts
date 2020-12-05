@@ -24,7 +24,7 @@ const subSolution = (map: string[], slopeRight: number, slopeDown: number): numb
 };
 
 (async () => {
-  const raw = await readFile(__dirname);
+  const raw = (await readFile(__dirname)).split('\n');
   const slopes = [
     [1, 1],
     [3, 1],
