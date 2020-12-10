@@ -2,13 +2,13 @@
 import readFile from '../common/readFile';
 
 // slope: [slopeRight, slopeDown]
-const solution = (map: string[], slopes: number[][]) => {
+export const solution = (map: string[], slopes: number[][]) => {
   return slopes.reduce((acc: number, slope: number[]): number => {
     return acc * subSolution(map, slope[0], slope[1]);
   }, 1);
 };
 
-// this is the solution from part 1
+// this is the solution from part-1
 const subSolution = (map: string[], slopeRight: number, slopeDown: number): number => {
   const mapWidth = map[0].length;
   const pos = [0, 0]; // x, y
@@ -23,8 +23,8 @@ const subSolution = (map: string[], slopeRight: number, slopeDown: number): numb
   return treeCount;
 };
 
-(async () => {
-  const raw = (await readFile(__dirname)).split('\n');
+if (require.main === module) {
+  const raw = readFile(__dirname).split('\n');
   const slopes = [
     [1, 1],
     [3, 1],
@@ -33,4 +33,4 @@ const subSolution = (map: string[], slopeRight: number, slopeDown: number): numb
     [1, 2],
   ];
   console.log(solution(raw, slopes));
-})();
+}

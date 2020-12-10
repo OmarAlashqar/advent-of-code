@@ -24,8 +24,8 @@ export const solution = (input: number[], total: number): number => {
   return 0;
 };
 
-(async () => {
-  const raw = (await readFile(__dirname)).split('\n');
+if (require.main === module) {
+  const raw = readFile(__dirname).split('\n');
   const input = raw.map(v => Number(v));
   console.log(solution(input, 2020));
-})();
+}

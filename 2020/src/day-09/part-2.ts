@@ -1,5 +1,4 @@
 // answer: 23761694
-import {exit} from 'process';
 import readFile from '../common/readFile';
 
 // adapted from day-01/part-1.ts
@@ -52,8 +51,8 @@ export const solution = (input: number[], window: number): number => {
   throw new Error('No solution found');
 };
 
-(async () => {
-  const raw = (await readFile(__dirname)).split('\n');
+if (require.main === module) {
+  const raw = readFile(__dirname).split('\n');
   const input = raw.map(v => Number(v));
   console.log(solution(input, 25));
-})().catch(console.error);
+}

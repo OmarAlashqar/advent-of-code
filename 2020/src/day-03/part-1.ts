@@ -15,7 +15,7 @@ export const solution = (map: string[], slopeRight: number, slopeDown: number): 
   return treeCount;
 };
 
-(async () => {
-  const raw = (await readFile(__dirname)).split('\n');
+if (require.main === module) {
+  const raw = readFile(__dirname).split('\n');
   console.log(solution(raw, 3, 1));
-})();
+}

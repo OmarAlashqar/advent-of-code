@@ -41,7 +41,7 @@ export const solution = (program: string[]): number => {
   return 0;
 };
 
-(async () => {
-  const raw = (await readFile(__dirname)).split('\n');
+if (require.main === module) {
+  const raw = readFile(__dirname).split('\n');
   console.log(solution(raw));
-})().catch(console.error);
+}

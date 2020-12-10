@@ -20,7 +20,7 @@ export const solution = (groups: string[]): number => {
   }, 0);
 };
 
-(async () => {
-  const raw = (await readFile(__dirname)).split('\n\n');
+if (require.main === module) {
+  const raw = readFile(__dirname).split('\n\n');
   console.log(solution(raw));
-})();
+}

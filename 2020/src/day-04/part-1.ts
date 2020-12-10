@@ -31,7 +31,7 @@ export const solution = (input: string) => {
   }, 0);
 };
 
-(async () => {
-  const raw = await readFile(__dirname);
+if (require.main === module) {
+  const raw = readFile(__dirname);
   console.log(solution(raw));
-})();
+}

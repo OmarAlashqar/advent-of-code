@@ -60,7 +60,7 @@ const subSolution = (program: string[], state: State, ignore = false): number | 
   return state.accum;
 };
 
-(async () => {
-  const raw = (await readFile(__dirname)).split('\n');
+if (require.main === module) {
+  const raw = readFile(__dirname).split('\n');
   console.log(solution(raw));
-})().catch(console.error);
+}
