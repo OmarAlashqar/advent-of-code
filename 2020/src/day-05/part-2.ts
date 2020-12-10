@@ -29,7 +29,7 @@ const parseSeat = (seat: string): Seat => {
 
 export const solution = (input: string[]): number => {
   const seatIDs = input.map(parseSeat).map(getSeatID);
-  seatIDs.sort();
+  seatIDs.sort((a, b) => a - b);
 
   for (let i = 0; i < seatIDs.length; i++) {
     // problem statement guarantees this condition to happen in non-inclusive interval (0, seatIDs.length -1),
