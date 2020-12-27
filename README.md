@@ -1,5 +1,3 @@
 ## Advent of Code solutions
 
-This repo houses my solutions to coding challenges from Advent of Code. It's organized into separate directories for each year, as the challenges are annual. Each directory is self contained, as I might use different languages each year.
-
-See problems here: https://adventofcode.com
+Here, you'll find my solutions to the annual coding challenged from [Advent of Code](https://adventofcode.com/). Some are shameless brute force, some fancy, and some I'm very proud of!
