@@ -9,17 +9,13 @@ import readFile from '../common/readFile';
 // this means we can't use the built-in bitwise operations on our 36-bit masks and values :(
 // nevertheless, the BigInt type implements bitwise operations for wider numbers! woo!
 
-const ADDRESS_RANGE = 2 ^ 36;
-const BIG_0 = BigInt(0);
-
 export const solution = (input: string[]): number => {
-  const mem = new Array<bigint>(ADDRESS_RANGE).fill(BIG_0);
+  const mem: Map<number, number> = new Map();
+
   let coldMask = BigInt(0x000000000); // has 'X's replaced with '0's
   let hotMask = BigInt(0xfffffffff); // has 'X's replaced with '1's
 
-  for (let i = 0; i < input.length; i++) {
-    const line = input[i];
-
+  for (let line of input) {
     if (line[1] === 'a') {
       // mask command
       const match = line.match(/mask = ([X01]+)/);
@@ -37,11 +33,14 @@ export const solution = (input: string[]): number => {
       const value = BigInt(match[2]);
 
       // the real magic happens here, behold!
-      mem[addr] = (value | coldMask) & hotMask;
+      mem.set(addr, Number((value | coldMask) & hotMask));
     }
   }
 
-  return Number(mem.reduce((acc, v) => acc + v, BIG_0));
+  let sum = 0;
+  for (let v of mem.values()) sum += v;
+
+  return sum;
 };
 
 if (require.main === module) {

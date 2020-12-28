@@ -17,7 +17,7 @@ This year, I'm going with TypeScript :tada:
 | [11](src/day-11) | :heavy_check_mark: |          | Cellular automata                                          |
 | [12](src/day-12) | :heavy_check_mark: |          | Turtle simulator                                           |
 | [13](src/day-13) | :heavy_check_mark: |  :star:  | Mathematical solution & efficient event search             |
-|        14        |        :x:         |          |                                                            |
+| [14](src/day-14) | :heavy_check_mark: |  :star:  | Bit manipulation with masks                                |
 | [15](src/day-15) | :heavy_check_mark: |          |                                                            |
 | [16](src/day-16) | :heavy_check_mark: |          | Identifying unknown keys by process of elimination         |
 |        17        |        :x:         |          | Cellular automata - 3D and 4D Conway's Game of Life        |
