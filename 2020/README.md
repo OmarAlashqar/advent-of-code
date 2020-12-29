@@ -13,7 +13,7 @@ This year, I'm going with TypeScript :tada:
 | [07](src/day-07) |  :heavy_check_mark:  |  :star:  | DAG/Graph parsing and algorithms                           |
 | [08](src/day-08) |  :heavy_check_mark:  |          | Assembly simulator and find/fix infinite loop              |
 | [09](src/day-09) |  :heavy_check_mark:  |          | Pattern matching and contiguous sub-array search           |
-| [10](src/day-10) |  :heavy_check_mark:  |  :star:  | Number of paths from point to point                        |
+| [10](src/day-10) |  :heavy_check_mark:  |  :star:  | Number of paths from point to point in linear list         |
 | [11](src/day-11) |  :heavy_check_mark:  |          | Cellular automata                                          |
 | [12](src/day-12) |  :heavy_check_mark:  |          | Turtle simulator                                           |
 | [13](src/day-13) |  :heavy_check_mark:  |  :star:  | Mathematical solution & efficient event search             |
