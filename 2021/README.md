@@ -5,3 +5,4 @@ This year, I almost went with Scala. After some deliberation, I decided against 
 |         Day         |     Completed      | Favorite | Notes                        |
 | :-----------------: | :----------------: | :------: | ---------------------------- |
 | [01](src/day-01.ts) | :heavy_check_mark: |          | Windowing values in an array |
+| [02](src/day-02.ts) | :heavy_check_mark: |          | Turtle commands              |
