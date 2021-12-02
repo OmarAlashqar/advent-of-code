@@ -12,7 +12,7 @@ const solutionPart1 = (depths: number[]) => {
 };
 
 const solutionPart2 = (depths: number[]) => {
-  const windowedSums = [];
+  const windowedSums: number[] = [];
   for (let i = 0; i < depths.length - 2; i++) {
     windowedSums.push(depths[i] + depths[i + 1] + depths[i + 2]);
   }
