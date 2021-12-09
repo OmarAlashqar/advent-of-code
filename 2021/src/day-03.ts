@@ -1,5 +1,10 @@
 import readFile from './common/readFile';
 
+// Instead of getting the most/least common value per digit,
+// this could've been solved by generating a trie from the input
+// and easily reading off the answers from it. Overall, a trie
+// solution would be O(n) since the depth is a constant.
+
 const getFreq = (bitStrings: string[]) => {
   const nBits = bitStrings[0].length;
   const freq: number[] = new Array(nBits).fill(0);
