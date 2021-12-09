@@ -11,3 +11,4 @@ This year, I almost went with Scala. After some deliberation, I decided against 
 | [05](src/day-05.ts) | :heavy_check_mark: |          | Intersections of 2D lines in the discrete domain |
 | [06](src/day-06.ts) | :heavy_check_mark: |          | Rapid population growth simulation               |
 | [07](src/day-07.ts) | :heavy_check_mark: |          | Math to optimize a deceivingly simple question   |
+| [08](src/day-08.ts) | :heavy_check_mark: |  :star:  | Reverse engineering 7-segment display signals    |
