@@ -12,3 +12,4 @@ This year, I almost went with Scala. After some deliberation, I decided against 
 | [06](src/day-06.ts) | :heavy_check_mark: |          | Rapid population growth simulation               |
 | [07](src/day-07.ts) | :heavy_check_mark: |          | Math to optimize a deceivingly simple question   |
 | [08](src/day-08.ts) | :heavy_check_mark: |  :star:  | Reverse engineering 7-segment display signals    |
+| [09](src/day-09.ts) | :heavy_check_mark: |          | BFS/DFS on a grid - Size of Islands              |
