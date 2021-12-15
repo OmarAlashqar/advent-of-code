@@ -14,3 +14,4 @@ This year, I almost went with Scala. After some deliberation, I decided against 
 | [08](src/day-08.ts) | :heavy_check_mark: |  :star:  | Reverse engineering 7-segment display signals    |
 | [09](src/day-09.ts) | :heavy_check_mark: |          | BFS/DFS on a grid - Size of Islands              |
 | [10](src/day-10.ts) | :heavy_check_mark: |  :star:  | Bracket matching validation and completion       |
+| [11](src/day-11.ts) | :heavy_check_mark: |          | Step-by-step simulation on a grid                |
