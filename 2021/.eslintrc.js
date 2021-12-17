@@ -7,5 +7,6 @@ module.exports = {
   },
   rules: {
     '@typescript-eslint/no-unused-vars': 'warn',
+    '@typescript-eslint/lines-between-class-members': 'off',
   },
 };

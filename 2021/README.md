@@ -16,3 +16,4 @@ This year, I almost went with Scala. After some deliberation, I decided against 
 | [10](src/day-10.ts) | :heavy_check_mark: |  :star:  | Bracket matching validation and completion                    |
 | [11](src/day-11.ts) | :heavy_check_mark: |          | Step-by-step simulation on a grid                             |
 | [14](src/day-14.ts) | :heavy_check_mark: |  :star:  | Exponential growth simulation using compressed data structure |
+| [15](src/day-15.ts) | :heavy_check_mark: |  :star:  | Efficient Dijkstra's using priority queue                     |
