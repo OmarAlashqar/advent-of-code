@@ -12,3 +12,4 @@ This year, I decided to go with Typescript again because I've been using Python 
 | [06](src/day-06.ts) | :heavy_check_mark: |          | Solving and optimizing a problem by representing it as a mathematical expression |
 | [07](src/day-07.ts) | :heavy_check_mark: |          | Sorting values with complex rules (Poker-like with wildcards) |
 | [08](src/day-08.ts) | :heavy_check_mark: |          | Simple graph traversal and finding a pattern in the input to optimize solution |
+| [09](src/day-09.ts) | :heavy_check_mark: |          | Recursion |
