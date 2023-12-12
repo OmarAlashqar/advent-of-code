@@ -14,3 +14,4 @@ This year, I decided to go with Typescript again because I've been using Python 
 | [08](src/day-08.ts) | :heavy_check_mark: |          | Simple graph traversal and finding a pattern in the input to optimize solution   |
 | [09](src/day-09.ts) | :heavy_check_mark: |          | Recursion                                                                        |
 | [10](src/day-10.ts) | :heavy_check_mark: |  :star:  | 2D polygon detection and ray casting to determine surface area                   |
+| [11](src/day-11.ts) | :heavy_check_mark: |          | Manhattan distance with weighted edges                                           |
