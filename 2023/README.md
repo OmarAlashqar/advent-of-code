@@ -18,3 +18,4 @@ This year, I decided to go with Typescript again because I've been using Python 
 |         12          |                    |          |                                                                                  |
 | [13](src/day-13.ts) | :heavy_check_mark: |  :star:  | Finding reflections in grid data                                                 |
 | [14](src/day-14.ts) | :heavy_check_mark: |          | Grid manipulation and iteration cycle detection                                  |
+| [15](src/day-15.ts) | :heavy_check_mark: |          | Basic hashmap implementation                                                     |
